@@ -24,3 +24,39 @@ pip install -r requirements.txt
 
 ### Support Vector Clasifier (SVC)
 Source dataset: https://www.kaggle.com/datasets/erdemtaha/cancer-data/data
+
+Atribut:
+* radius_mean
+* texture_mean
+* perimeter_mean
+* area_mean 
+* smoothness_mean
+* compactness_mean 
+* concavity_mean
+* concave points_mean
+
+semua atribut ini Mewakili nilai rata-rata dari visual kanker/penampilan kanker
+
+Label:
+* Diagnosis: Menunjukkan jenis kanker. Properti ini dapat mengambil nilai "M" (Ganas) atau "B" (Jinak)
+
+
+### Support Vector Regresion (SVR)
+
+Source dataset: https://archive.ics.uci.edu/dataset/294/combined+cycle+power+plant
+
+Atribut:
+* Ambient variables Temperature (AT): Nilai rata-rata dari temperature per jam
+* Ambient Pressure (AP): Nilai rata-rata dari Tekanan Sekitar
+* Relative Humidity (RH): Nilai rata-rata dari Kelembaban relatif
+* Exhaust Vacuum (V): Nilai rata-rata dari zat yang dibuang
+
+Label:
+* Electrical energy output (EP): Listrik yang dihasilkan per jam 
+
+
+
+
+
+
+
